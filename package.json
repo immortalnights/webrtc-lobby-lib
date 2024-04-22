@@ -3,9 +3,9 @@
     "private": true,
     "version": "0.1.1",
     "license": "Apache-2.0",
-    "main": "./dist/webrtc-lobby-lib.umd.js",
-    "module": "./dist/webrtc-lobby-lib.es.js",
-    "types": "./dist/index.d.ts",
+    "main": "./webrtc-lobby-lib.umd.js",
+    "module": "./webrtc-lobby-lib.es.js",
+    "types": "./index.d.ts",
     "peerDependencies": {
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
