@@ -1,0 +1,1 @@
+{"version":3,"file":"store.d.ts","sourceRoot":"","sources":["../../src/components/WebSocket/store.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,uBAAuB,EAAE,MAAM,SAAS,CAAA;AAOlE,eAAO,MAAM,KAAK;gBACF,eAAe;6BA4BF,MAAM,IAAI;+BAOR,MAAM,IAAI;;eAQ1B,MAAM,QAAQ,MAAM,GAAG,SAAS;qBAS1B,MAAM;;iCA4DM,uBAAuB;oCAIpB,uBAAuB;CAG1D,CAAA"}
