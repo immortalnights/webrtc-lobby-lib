@@ -28,6 +28,6 @@ jobs:
 
             - run: |
                   git status
-                  git rev-parse master > source_commit
+                  git rev-parse main > source_commit
                   git commit -a -m "[GitHub Actions] Updated build" || true
                   git push origin binaries
