@@ -7,9 +7,9 @@ import {
     useSyncExternalStore,
 } from "react"
 import { store as webSocketStore } from "./store"
-import { ConnectionState, WebSocketMessageHandler } from "./types"
+import { type ConnectionState, type WebSocketMessageHandler } from "./types"
 
-interface WebSocketContextValue {
+export interface WebSocketContextValue {
     state: ConnectionState
     connect: () => Promise<void>
     subscribe: (callback: WebSocketMessageHandler) => void

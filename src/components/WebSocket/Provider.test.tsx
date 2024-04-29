@@ -1,10 +1,10 @@
 import {
-    RenderOptions,
+    type RenderOptions,
     render as reactRender,
     screen,
 } from "@testing-library/react"
 import { expect, test } from "vitest"
-import { ReactElement, useEffect } from "react"
+import { type ReactElement, useEffect } from "react"
 import { useWebSocket } from "./useWebSocket"
 import { WebSocketProvider } from "./Provider"
 

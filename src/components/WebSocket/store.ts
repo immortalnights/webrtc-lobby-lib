@@ -1,4 +1,4 @@
-import { ConnectionState, WebSocketMessageHandler } from "./types"
+import { type ConnectionState, type WebSocketMessageHandler } from "./types"
 
 let ws: WebSocket | undefined
 const onWebSocketMessage = new Set<WebSocketMessageHandler>()
