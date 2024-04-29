@@ -1,0 +1,31 @@
+name: Build
+
+on:
+    push:
+        branches: [main]
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+
+            - uses: actions/setup-node@v3
+              with:
+                  node-version: 16
+
+            - run: npm ci
+
+            - run: npm test
+
+            - run: npm build
+
+            - run: git checkout build
+
+            - run: cp dist/** .
+
+            - run: |
+                  git status
+                  git rev-parse master > source_commit
+                  git commit -a -m "[GitHub Actions] Updated build" || true
+                  git push origin binaries
