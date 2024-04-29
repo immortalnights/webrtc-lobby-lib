@@ -20,7 +20,9 @@ jobs:
 
             - run: npm run build
 
-            - run: git checkout builds
+            - run: |
+                  git fetch origin builds:builds
+                  git checkout builds
 
             - run: cp dist/** .
 
