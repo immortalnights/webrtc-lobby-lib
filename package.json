@@ -46,5 +46,8 @@
     "vite-plugin-dts": "^3.8.3",
     "vite-tsconfig-paths": "^3.6.0",
     "vitest": "^1.5.0"
+  },
+  "dependencies": {
+    "game-signaling-server": "github:immortalnights/game-signaling-server#v0.1.1"
   }
 }
