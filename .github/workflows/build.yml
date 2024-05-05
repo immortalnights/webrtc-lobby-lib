@@ -26,8 +26,8 @@ jobs:
                   git checkout builds
 
             - run: |
-                  cp -r dist/** .
-                  cp -r components/** .
+                  mv -r dist/** .
+                  mv -r components/** .
 
             - run: |
                   git status
