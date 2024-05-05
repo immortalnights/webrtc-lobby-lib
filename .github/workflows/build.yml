@@ -25,7 +25,9 @@ jobs:
                   git fetch origin builds:builds
                   git checkout builds
 
-            - run: cp -r dist/** .
+            - run: |
+                  cp -r dist/** .
+                  cp -r components/** .
 
             - run: |
                   git status
