@@ -1,7 +1,7 @@
 import { ConnectionState, WebSocketMessageHandler } from './types';
 import { ReactNode } from 'react';
 
-interface WebSocketContextValue {
+export interface WebSocketContextValue {
     state: ConnectionState;
     connect: () => Promise<void>;
     subscribe: (callback: WebSocketMessageHandler) => void;
@@ -15,5 +15,4 @@ export declare const WebSocketProvider: ({ address, children, }: {
     address?: string;
     children: ReactNode;
 }) => import("react/jsx-runtime").JSX.Element;
-export {};
 //# sourceMappingURL=Provider.d.ts.map
