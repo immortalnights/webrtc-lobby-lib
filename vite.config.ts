@@ -14,6 +14,8 @@ export default defineConfig({
     plugins: [
         dts({
             include: ["src/components"],
+            outDir: "dist",
+            rollupTypes: true,
         }),
         tsConfigPaths(),
         react(),
