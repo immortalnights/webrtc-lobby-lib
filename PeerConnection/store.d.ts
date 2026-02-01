@@ -1,5 +1,4 @@
 import { Connection, ConnectionMap, DataChannelMessageHandler } from './types';
-
 export declare const peerConnectionStore: {
     getConnections(): ConnectionMap;
     find(peer: string): Connection;

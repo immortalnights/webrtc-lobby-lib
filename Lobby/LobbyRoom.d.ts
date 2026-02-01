@@ -1,5 +1,4 @@
 import { RoomRecord } from 'game-signaling-server/client';
-
 export declare const LobbyRoom: ({ localPlayerId, room: initialRoom, onJoinGame, onLeaveRoom, }: {
     localPlayerId: string;
     room: RoomRecord;

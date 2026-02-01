@@ -1,7 +1,6 @@
-import { ConnectionMap, DataChannelMessageHandler } from './types';
-import { ReactNode } from 'react';
 import { RTCIceCandidateLike, RTCSessionDescriptionLike } from 'game-signaling-server/client';
-
+import { ReactNode } from 'react';
+import { ConnectionMap, DataChannelMessageHandler } from './types';
 export interface PeerConnectionContextValue {
     connections: ConnectionMap;
     offer: (peer: string, name?: string) => Promise<{

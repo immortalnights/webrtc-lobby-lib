@@ -1,6 +1,5 @@
-import { ReactNode } from 'react';
 import { PlayerRecord, RoomRecord } from 'game-signaling-server/client';
-
+import { ReactNode } from 'react';
 export type State = "main-menu" | "lobby" | "in-game";
 export interface ManagerContextValue {
     state: State;

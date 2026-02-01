@@ -1,5 +1,4 @@
 import { ReactNode } from 'react';
-
 export type GameState = "setup" | "ready" | "playing" | "paused" | "finished";
 export type PlayerGameState = "joining" | "initializing" | "world-building" | "ready" | "paused" | "disconnected";
 export interface GameContextValue {

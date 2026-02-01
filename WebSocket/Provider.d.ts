@@ -1,6 +1,5 @@
-import { ConnectionState, WebSocketMessageHandler } from './types';
 import { ReactNode } from 'react';
-
+import { ConnectionState, WebSocketMessageHandler } from './types';
 export interface WebSocketContextValue {
     state: ConnectionState;
     connect: () => Promise<void>;

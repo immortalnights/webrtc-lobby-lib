@@ -1,5 +1,4 @@
 import { ConnectionState, WebSocketMessageHandler } from './types';
-
 export declare const store: {
     getState(): ConnectionState;
     subscribe(onStoreChange: () => void): () => void;
